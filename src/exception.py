@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
@@ -29,4 +29,3 @@ class CustomeException(Exception):
 #     except Exception as e:
 #         logging.info("Divide by Zero")
 #         raise CustomeException(e,sys)
-#         logging.info("Logging has started.")
