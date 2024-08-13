@@ -4,6 +4,7 @@ seaborn
 ipykernel
 matplotlib
 catboost
+flask
 xgboost
 dill
 -e .
