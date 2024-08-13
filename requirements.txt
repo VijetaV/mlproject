@@ -3,4 +3,5 @@ pandas
 seaborn
 ipykernel
 matplotlib
+dill
 -e .
